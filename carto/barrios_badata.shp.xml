@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<metadata><Esri><CreaDate>20190401</CreaDate><CreaTime>09541900</CreaTime><SyncDate>20190401</SyncDate><SyncTime>10015200</SyncTime><ModDate>20190401</ModDate><ModTime>10015200</ModTime><SyncOnce>FALSE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Archivos de programa\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20120117" Time="105846" Name="" export="">FeatureClassToFeatureClass C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\barrios(15).shp "C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\New File Geodatabase.gdb\OtraEtapa" Barrios_ref # "BARRIO 'BARRIO' true true false 50 Text 0 0 ,First,#,C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\barrios(15).shp,BARRIO,-1,-1;COMUNA 'COMUNA' true true false 19 Double 0 0 ,First,#,C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\barrios(15).shp,COMUNA,-1,-1;PERIMETRO 'PERIMETRO' true true false 19 Double 0 0 ,First,#,C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\barrios(15).shp,PERIMETRO,-1,-1;AREA 'AREA' true true false 19 Double 0 0 ,First,#,C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\barrios(15).shp,AREA,-1,-1" # "C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\New File Geodatabase.gdb\OtraEtapa\Barrios_ref"</Process><Process ToolSource="C:\Archivos de programa\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20120118" Time="102446" Name="" export="">FeatureClassToFeatureClass "C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\New File Geodatabase.gdb\OtraEtapa\Barrios_ref" C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\Re-Finales Barrios.shp # "BARRIO 'BARRIO' true true false 50 Text 0 0 ,First,#,C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\New File Geodatabase.gdb\OtraEtapa\Barrios_ref,BARRIO,-1,-1;COMUNA 'COMUNA' true true false 8 Double 0 0 ,First,#,C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\New File Geodatabase.gdb\OtraEtapa\Barrios_ref,COMUNA,-1,-1;PERIMETRO 'PERIMETRO' true true false 8 Double 0 0 ,First,#,C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\New File Geodatabase.gdb\OtraEtapa\Barrios_ref,PERIMETRO,-1,-1;AREA 'AREA' true true false 8 Double 0 0 ,First,#,C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\New File Geodatabase.gdb\OtraEtapa\Barrios_ref,AREA,-1,-1;Shape_Leng 'Shape_Length' false true true 8 Double 0 0 ,First,#,C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\New File Geodatabase.gdb\OtraEtapa\Barrios_ref,Shape_Length,-1,-1;Shape_Area 'Shape_Area' false true true 8 Double 0 0 ,First,#,C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\New File Geodatabase.gdb\OtraEtapa\Barrios_ref,Shape_Area,-1,-1" # C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\Finales\Re-Finales\Barrios.shp</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190129" Time="161643" Name="" export="">CalculateField Barrios PERIMETRO [Shape_Leng] VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20190129" Time="161651" Name="" export="">CalculateField Barrios AREA [Shape_Area] VB #</Process></lineage><itemProps><itemName Sync="TRUE">Barrios</itemName><imsContentType Sync="TRUE" export="False">002</imsContentType><itemLocation><linkage Sync="TRUE">file://\\MMITPCCIMJPYFWK\C$\Users\20341394644\Desktop\Revision Enero 19_\Barrios.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><nativeExtBox><westBL Sync="TRUE">93743.423000</westBL><eastBL Sync="TRUE">111751.361400</eastBL><southBL Sync="TRUE">91566.416200</southBL><northBL Sync="TRUE">111401.730100</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">0.253</itemSize></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_Campo_Inchauspe</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">Argentina_GKBsAs</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;Argentina_GKBsAs&amp;quot;,GEOGCS[&amp;quot;GCS_Campo_Inchauspe&amp;quot;,DATUM[&amp;quot;D_Campo_Inchauspe&amp;quot;,SPHEROID[&amp;quot;International_1924&amp;quot;,6378388.0,297.0]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,100000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,100000.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-58.4627],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.999998],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,-34.6297166],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-5523400&lt;/XOrigin&gt;&lt;YOrigin&gt;-6068900&lt;/YOrigin&gt;&lt;XYScale&gt;450249651.57241428&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>North American Profile of ISO19115 2003</ArcGISstyle><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange><ArcGISProfile>NAP</ArcGISProfile><MetaID>{CBF59720-3DD8-4F2E-9CAA-92F0E7F25E44}</MetaID></Esri><mdLang><countryCode value="" Sync="TRUE"/><languageCode Sync="TRUE" value="es"></languageCode></mdLang><mdContact xmlns=""><rpIndName>Area Información</rpIndName><rpOrgName>Unidad de Sistemas de Información Geográfica - Dirección General de Ciencias de la Información - Subsecretaría de Ciudad Inteligente - Secretaría de Ciencia, Tecnología e Innovación - Ministerio de Educación e Innovación</rpOrgName><rpCntInfo xmlns=""><cntPhone><voiceNum tddtty="">5030-9200 int. 2243</voiceNum></cntPhone><cntAddress addressType=""><delPoint>Av. Martín García 346 2º Piso</delPoint><city>Ciudad Autónoma de Buenos Aires</city><adminArea>Ciudad Autónoma de Buenos Aires</adminArea><country>ar</country><eMailAdd>usig_info@buenosaires.gob.ar</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="006"/></role></mdContact><mdDateSt>20050526</mdDateSt><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><dataIdInfo><idCitation xmlns=""><resTitle>Barrios de la Ciudad Autónoma de Buenos Aires</resTitle><resRefDate><refDate>201903</refDate><refDateType><DateTypCd value="002"/></refDateType></resRefDate><presForm xmlns=""><PresFormCd Sync="TRUE" value="005"/></presForm><resRefDate><refDate>20021204</refDate><refDateType><DateTypCd value="001"/></refDateType></resRefDate><resEdDate>201903</resEdDate><resRefDate><refDate>201903</refDate><refDateType><DateTypCd value="003"/></refDateType></resRefDate><citRespParty xmlns=""><rpIndName>Area Información</rpIndName><rpOrgName>Unidad de Sistemas de Información Geográfica - Dirección General de Ciencias de la Información - Subsecretaría de Ciudad Inteligente - Secretaría de Ciencia, Tecnología e Innovación - Ministerio de Educación e Innovación</rpOrgName><role><RoleCd value="006"/></role><rpCntInfo xmlns=""><cntAddress addressType=""><delPoint>Av. Martín García 346 2º Piso</delPoint><city>Ciudad Autónoma de Buenos Aires</city><adminArea>Ciudad Autónoma de Buenos Aires</adminArea><eMailAdd>usig_info@buenosaires.gob.ar</eMailAdd><country>ar</country></cntAddress><cntPhone><voiceNum tddtty="">5030-9200 int. 2243</voiceNum></cntPhone></rpCntInfo></citRespParty><resAltTitle>barrios_badata.shp</resAltTitle></idCitation><idAbs>Delimitación de los Barrios de la Ciudad de Buenos Aires modificados en base a la Ley 2094 (2006) que establece los nuevos límites de los mismos. Modificado a Abril de 2008, en base a la Ley 2.650/08 que establece los nuevos límites de Barrios. </idAbs><resMaint xmlns=""><maintFreq><MaintFreqCd value="009"/></maintFreq></resMaint><descKeys KeyTypCd="002"><keyTyp><KeyTypCd value="002"/></keyTyp><keyword>Ciudad Autónoma de Buenos Aires</keyword></descKeys><descKeys KeyTypCd="005"><keyTyp><KeyTypCd value="005"/></keyTyp><keyword>Barrios</keyword><keyword>Delimitación</keyword><keyword>demarcation</keyword><keyword>districts</keyword></descKeys><resConst><LegConsts xmlns=""><accessConsts><RestrictCd value="006"/></accessConsts><useConsts><RestrictCd value="006"/></useConsts></LegConsts><Consts xmlns=""><useLimit>La información deberá ser utilizada de acuerdo con los usos que marca la Ley, respetando la fuente de los datos originales. La información suministrada en formato digital es para uso personal e intransferible. Queda estrictamente prohibido cualquier aprovechamiento o explotación del diseño y los Contenidos -por cualquier medio-, con fines comerciales. Sin perjuicio de ello, la información presentada podrá ser utilizada con fines informativos e ilustrativos en el contexto de un proyecto educacional o de divulgación científica, y siempre que se aclare la fuente. La utilización de los Contenidos de una forma que infrinja estas las disposiciones de uso, faculta al GCBA a ejercer las acciones legales que correspondan.</useLimit></Consts></resConst><geoBox esriExtentType="decdegrees"><exTypeCode>1</exTypeCode><westBL>-58,531519</westBL><eastBL>-58,335142</eastBL><southBL>-34,705293</southBL><northBL>-34,527548</northBL></geoBox><dataExt xmlns=""><geoEle xmlns=""><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">93743.423</westBL><eastBL Sync="TRUE">111751.3614</eastBL><northBL Sync="TRUE">111401.7301</northBL><southBL Sync="TRUE">91566.4162</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.0.1770</envirDesc><spatRpType><SpatRepTypCd Sync="TRUE" value="001"/></spatRpType><dataLang><countryCode value="" Sync="TRUE"/><languageCode Sync="TRUE" value="es"></languageCode></dataLang><dataExt xmlns=""><geoEle xmlns=""><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-58.530990</westBL><eastBL Sync="TRUE">-58.334435</eastBL><northBL Sync="TRUE">-34.526871</northBL><southBL Sync="TRUE">-34.705738</southBL></GeoBndBox></geoEle></dataExt><dataChar><CharSetCd value="004"/></dataChar><tpCat><TopicCatCd value="003"/></tpCat><tpCat><TopicCatCd value="015"/></tpCat></dataIdInfo><distInfo xmlns=""><distributor xmlns=""><distorCont xmlns=""><rpIndName>Area Información</rpIndName><rpOrgName>Unidad de Sistemas de Información Geográfica - Dirección General de Ciencias de la Información - Subsecretaría de Ciudad Inteligente - Secretaría de Ciencia, Tecnología e Innovación - Ministerio de Educación e Innovación</rpOrgName><rpCntInfo xmlns=""><cntPhone><voiceNum tddtty="">5030-9200 int. 2243</voiceNum></cntPhone><cntAddress addressType=""><delPoint>Av. Martín García 346 2º Piso</delPoint><city>Ciudad Autónoma de Buenos Aires</city><adminArea>Ciudad Autónoma de Buenos Aires</adminArea><country>ar</country><eMailAdd>usig_info@buenosaires.gob.ar</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="005"/></role></distorCont><distorTran xmlns=""><onLineSrc><orDesc>001</orDesc><linkage>http://www.mapa.buenosaires.gob.ar - http://mapas.usig.buenosaires.gob.ar</linkage><protocol>Local Area Network</protocol><orFunct><OnFunctCd value="002"/></orFunct></onLineSrc><transSize Sync="TRUE">0,220</transSize><offLineMed><medName><MedNameCd value="001"/></medName></offLineMed></distorTran><distorFormat xmlns=""><formatName>Shapefile, dxf</formatName><formatVer>Arc Gis 9.0</formatVer></distorFormat><distorOrdPrc xmlns=""><ordInstr>La información no se encuentra disponible para la venta.</ordInstr></distorOrdPrc></distributor><distFormat xmlns=""><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps xmlns=""><transSize Sync="TRUE">0.253</transSize></distTranOps></distInfo><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="eb1491274a8a882bd4d35c1d00e40f" EsriPropertyType="Base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iSVNPLTg4NTktMSI/Pg0KPG1ldGFkYXRhPg0K
+PGlkaW5mbz4NCjxjaXRhdGlvbj4NCjxjaXRlaW5mbz4NCjxvcmlnaW4+RGlyZWNjaW4gR2VuZXJh
+bCBkZSBFc3RhZHN0aWNhIHkgQ2Vuc29zPC9vcmlnaW4+DQo8cHViZGF0ZT4yMDA0MDQyMzwvcHVi
+ZGF0ZT4NCjx0aXRsZT5CYXJyaW9zPC90aXRsZT4NCjxnZW9mb3JtPm1hcGE8L2dlb2Zvcm0+DQo8
+cHViaW5mbz4NCjxwdWJwbGFjZT5CdWVub3MgQWlyZXMgLSBBcmdlbnRpbmE8L3B1YnBsYWNlPg0K
+PHB1Ymxpc2g+REdTSUcgLSBHQ0JBPC9wdWJsaXNoPg0KPC9wdWJpbmZvPg0KPG9ubGluaz53d3cu
+dXNpZy5idWVub3NhaXJlcy5nb3YuYXI7IHd3dy5wcm9zaWdhLmdvdi5hcjsgd3d3LnNpZy5nb3Yu
+YXI8L29ubGluaz4NCjwvY2l0ZWluZm8+DQo8L2NpdGF0aW9uPg0KPGRlc2NyaXB0Pg0KPGFic3Ry
+YWN0PlBvbGdvbm9zIChzaGFwZWZpbGUpIGRlIGxvcyBCYXJyaW9zIGRlIGxhIENpdWRhZCBkZSBC
+dWVub3MgQWlyZXM8L2Fic3RyYWN0Pg0KPHB1cnBvc2U+PC9wdXJwb3NlPg0KPHN1cHBsaW5mPg0K
+KioqKiogSW5mb3JtYWNpbiBkZSBsYSBSZWZlcmVuY2lhIEVzcGFjaWFsIChCZWcpICoqKioqDQoN
+ClBhcm1ldHJvcyBkZSBQcm95ZWNjaW4NClNpc3RlbWEgZGUgQ29vcmRlbmFkYXM6IEdlb2dyZmlj
+YXMNCldHU18xOTg0DQpEYXR1bTogV0dTXzE5ODQNCkVsaXBzb2lkZTogV0dTXzE5ODQNClNlbWkg
+ZWplIG1heW9yOiA2Mzc4MTM3LjAwMDAwMA0KRGVub21pbmFkb3IgZGUgQXBsYW5hbWllbnRvOiAy
+OTguMjU3MjI0DQoNClVuaWRhZGVzOiBncmFkb3MgZGVjaW1hbGVzDQoNCkluZm9ybWFjaW4gZXNw
+YWNpYWwNClZlY3RvcjoNCkVzY2FsYSBkZWwgbWFwYSBpbXByZXNvL29yaWdpbmFsOg0KVGlwbzog
+cG9sZ29ubw0KQXRyaWJ1dG9zOg0KSUQNClRJUE86IE51bXJpY28NCkFOQ0hPOiAxNg0KREVTQ1JJ
+UENJTjogSWRlbnRpZmljYWRvciBuaWNvIGRlIGNhZGEgcmVnaXN0cm8NCg0KTk9NQlJFDQpUSVBP
+OiBUZXh0bw0KQU5DSE86IDIwDQpERVNDUklQQ0lOOiBOb21icmUgZGVsIEJhcnJpbw0KDQpBUkVB
+DQpUSVBPOiBudW1yaWNvIGRlIDMgZGVjaW1hbGVzDQpBTkNITzogMTANCkRFU0NSSVBDSU46IHJl
+YSBlbiBtZXRyb3MgY3VhZHJhZG9zDQoNClBFUklNRVRFUg0KVElQTzogbnVtcmljbyBkZSAzIGRl
+Y2ltYWxlcw0KQU5DSE86IDEwDQpERVNDUklQQ0lOOiBQZXJtZXRybw0KDQoqKioqKiBJbmZvcm1h
+Y2luIGRlIGxhIFJlZmVyZW5jaWEgRXNwYWNpYWwgKEVuZCkgKioqKioNCjwvc3VwcGxpbmY+DQo8
+L2Rlc2NyaXB0Pg0KPHRpbWVwZXJkPg0KPHRpbWVpbmZvPg0KPHJuZ2RhdGVzPg0KPGJlZ2RhdGU+
+PC9iZWdkYXRlPg0KPGVuZGRhdGU+PC9lbmRkYXRlPg0KPC9ybmdkYXRlcz4NCjwvdGltZWluZm8+
+DQo8Y3VycmVudD48L2N1cnJlbnQ+DQo8L3RpbWVwZXJkPg0KPHN0YXR1cz4NCjxwcm9ncmVzcz5j
+b21wbGV0bzwvcHJvZ3Jlc3M+DQo8dXBkYXRlPm5vIGhheSBwbGFuaWZpY2FkYTwvdXBkYXRlPg0K
+PC9zdGF0dXM+DQo8c3Bkb20+DQo8Ym91bmRpbmc+DQo8d2VzdGJjPi01OC41MzE1MTk8L3dlc3Ri
+Yz4NCjxlYXN0YmM+LTU4LjMzNTE0MjwvZWFzdGJjPg0KPG5vcnRoYmM+LTM0LjUyNzU0ODwvbm9y
+dGhiYz4NCjxzb3V0aGJjPi0zNC43MDUyOTM8L3NvdXRoYmM+DQo8L2JvdW5kaW5nPg0KPC9zcGRv
+bT4NCjxrZXl3b3Jkcz4NCjx0aGVtZT4NCjx0aGVtZWt0PjwvdGhlbWVrdD4NCjx0aGVtZWtleT5C
+YXJyaW9zPC90aGVtZWtleT4NCjx0aGVtZWtleT5kaXN0cmljdHM8L3RoZW1la2V5Pg0KPHRoZW1l
+a2V5PmRlbGltaXRhY2luPC90aGVtZWtleT4NCjx0aGVtZWtleT5kZW1hcmNhdGlvbjwvdGhlbWVr
+ZXk+DQo8L3RoZW1lPg0KPHBsYWNlPg0KPHBsYWNla3Q+PC9wbGFjZWt0Pg0KPHBsYWNla2V5PkNp
+dWRhZCBkZSBCdWVub3MgQWlyZXM8L3BsYWNla2V5Pg0KPC9wbGFjZT4NCjwva2V5d29yZHM+DQo8
+YWNjY29uc3Q+PC9hY2Njb25zdD4NCjx1c2Vjb25zdD48L3VzZWNvbnN0Pg0KPGJyb3dzZT4NCjxi
+cm93c2VuPkJhcnJpb3NfR0NCQV8zOS5qcGc8L2Jyb3dzZW4+DQo8YnJvd3NlZD5CYXJyaW9zIGRl
+IGxhIENpdWRhZCBkZSBCdWVub3MgQWlyZXM8L2Jyb3dzZWQ+DQo8YnJvd3NldD5KUEVHIC0gSm9p
+bnQgUGhvdG9ncmFwaGljIEV4cGVydHMgR3JvdXAgZm9ybWF0PC9icm93c2V0Pg0KPC9icm93c2U+
+DQo8L2lkaW5mbz4NCjxzcGRvaW5mbz4NCjxkaXJlY3Q+VmVjdG9yPC9kaXJlY3Q+DQo8L3NwZG9p
+bmZvPg0KPGRpc3RpbmZvPg0KPGRpc3RyaWI+DQo8Y250aW5mbz4NCjxjbnRwZXJwPg0KPGNudHBl
+cj5NYXJ0biBNYXJhenppPC9jbnRwZXI+DQo8Y250b3JnPkRpcmVjY2luIEdyYWwuIGRlIFNpc3Rl
+bWFzIGRlIEluZm9ybWFjaW4gR2VvZ3JmaWNhPC9jbnRvcmc+DQo8L2NudHBlcnA+DQo8Y250YWRk
+cj4NCjxhZGRydHlwZT5NYWlsaW5nIGFuZCBQaHlzaWNhbCBBZGRyZXNzPC9hZGRydHlwZT4NCjxh
+ZGRyZXNzPkF2LiBSb3F1ZSBTYW56IFBlYSA5Mzg8L2FkZHJlc3M+DQo8Y2l0eT5DaXVkYWQgZGUg
+QnVlbm9zIEFpcmVzPC9jaXR5Pg0KPHN0YXRlPjwvc3RhdGU+DQo8cG9zdGFsPkMxMDM1QUFSPC9w
+b3N0YWw+DQo8Y291bnRyeT5BcmdlbnRpbmE8L2NvdW50cnk+DQo8L2NudGFkZHI+DQo8Y250dm9p
+Y2U+NDMyOC0zMzk0IGludGVybm8gMTA4LTEwOS0xMTA8L2NudHZvaWNlPg0KPGNudGZheD40MzI4
+LTMzOTQgaW50ZXJubyAxMTc8L2NudGZheD4NCjxjbnRlbWFpbD51c2lnX2luZm9ybWFjaW5AYnVl
+bm9zYWlyZXMuZ292LmFyPC9jbnRlbWFpbD4NCjwvY250aW5mbz4NCjwvZGlzdHJpYj4NCjxkaXN0
+bGlhYj48L2Rpc3RsaWFiPg0KPC9kaXN0aW5mbz4NCjxtZXRhaW5mbz4NCjxtZXRkPjIwMDUwNTI2
+PC9tZXRkPg0KPG1ldGM+DQo8Y250aW5mbz4NCjxjbnRwZXJwPg0KPGNudHBlcj5NYXJ0biBNYXJh
+enppPC9jbnRwZXI+DQo8Y250b3JnPkRpcmVjY2luIEdyYWwuIGRlIFNpc3RlbWFzIGRlIEluZm9y
+bWFjaW4gR2VvZ3JmaWNhPC9jbnRvcmc+DQo8L2NudHBlcnA+DQo8Y250YWRkcj4NCjxhZGRydHlw
+ZT5NYWlsaW5nIGFuZCBQaHlzaWNhbCBBZGRyZXNzPC9hZGRydHlwZT4NCjxhZGRyZXNzPkF2LiBS
+b3F1ZSBTYW56IFBlYSA5Mzg8L2FkZHJlc3M+DQo8Y2l0eT5DaXVkYWQgZGUgQnVlbm9zIEFpcmVz
+PC9jaXR5Pg0KPHN0YXRlPjwvc3RhdGU+DQo8cG9zdGFsPkMxMDM1QUFSPC9wb3N0YWw+DQo8Y291
+bnRyeT5BcmdlbnRpbmE8L2NvdW50cnk+DQo8L2NudGFkZHI+DQo8Y250dm9pY2U+NDMyOC0zMzk0
+IGludGVybm8gMTA4LTEwOS0xMTA8L2NudHZvaWNlPg0KPGNudGZheD40MzI4LTMzOTQgaW50ZXJu
+byAxMTc8L2NudGZheD4NCjxjbnRlbWFpbD51c2lnX2luZm9ybWFjaW5AYnVlbm9zYWlyZXMuZ292
+LmFyPC9jbnRlbWFpbD4NCjwvY250aW5mbz4NCjwvbWV0Yz4NCjxtZXRzdGRuPkZHREMgQ29udGVu
+dCBTdGFuZGFyZHMgZm9yIERpZ2l0YWwgR2Vvc3BhdGlhbCBNZXRhZGF0YTwvbWV0c3Rkbj4NCjxt
+ZXRzdGR2PkZHREMtU1RELTAwMS0xOTk4PC9tZXRzdGR2Pg0KPC9tZXRhaW5mbz4NCjwvbWV0YWRh
+dGE+DQo=</Data></Enclosure><Thumbnail><Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
+CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9U6KK
+KACiiigAooooAKKKKACiisi48RQmRIbMC6kkztkyRDx234wx68Lnoc4xWNWtToR56srIaTexc1LV
+LbSYRLcuyoTgbI2c9CeignoKsRSpNGkkbrJG4DK6nIYHoQfSuW1lbxrG4kWQy3kieUsqqQIFPVkU
+ZPHBx1JA5AAxznh7xJq/hvTIBJpx1Kwbb5s0Ep/0Z9qh41TLnaGyBzgdyFO4eNh84o1pzu7RVrN7
+v5f15mjptI9PoqrY6jBqUbPAXIVtrLJG0bA4z0YA96tV7yakroyCiiimAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABVXUL77DCrBPMldgkcecbmPPXsAASfYGrVYWpXUb6k7SSKlvZrgs5
+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
+ABRRRQAUUUUAFFFFAH//2Q==</Data></Thumbnail></Binary><idinfo><native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.0.1770</native><descript><langdata Sync="TRUE">es</langdata><abstract>REQUIRED: A brief narrative summary of the data set.</abstract><purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose></descript><citation><citeinfo><title Sync="TRUE">barrios_badata</title><ftname Sync="TRUE">barrios_badata</ftname><geoform Sync="TRUE">vector digital data</geoform><onlink Sync="TRUE">\\LAURA-THIN\C$\00Laura\00Trabajo Laura\000 A TRABAJAR\VERSION FINAL\barrios_badata.shp</onlink><origin>REQUIRED: The name of an organization or individual that developed the data set.</origin><pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate></citeinfo></citation><natvform Sync="TRUE">Shapefile</natvform><spdom><lboundng><leftbc Sync="TRUE">93743.423000</leftbc><rightbc Sync="TRUE">111751.361400</rightbc><bottombc Sync="TRUE">91566.416200</bottombc><topbc Sync="TRUE">111401.730100</topbc></lboundng><bounding><westbc Sync="TRUE">-58.530990</westbc><eastbc Sync="TRUE">-58.334435</eastbc><northbc Sync="TRUE">-34.526871</northbc><southbc Sync="TRUE">-34.705738</southbc></bounding></spdom><timeperd><current>REQUIRED: The basis on which the time period of content information is determined.</current><timeinfo><sngdate><caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate></sngdate></timeinfo></timeperd><status><progress>REQUIRED: The state of the data set.</progress><update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update></status><keywords><theme><themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt><themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey></theme></keywords><accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst><useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst></idinfo><metainfo><langmeta Sync="TRUE">es</langmeta><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><mettc Sync="TRUE">local time</mettc><metd Sync="TRUE">20190401</metd><metc><cntinfo><cntorgp><cntper>REQUIRED: The person responsible for the metadata information.</cntper><cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg></cntorgp><cntaddr><addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype><city>REQUIRED: The city of the address.</city><state>REQUIRED: The state or province of the address.</state><postal>REQUIRED: The ZIP or other postal code of the address.</postal></cntaddr><cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice></cntinfo></metc><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo><mdChar><CharSetCd Sync="TRUE" value="004"/></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"/></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distinfo><resdesc Sync="TRUE">Downloadable Data</resdesc><stdorder><digform><digtinfo><transize Sync="TRUE">0,220</transize><dssize Sync="TRUE">0,220</dssize></digtinfo></digform></stdorder></distinfo><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="barrios_badata"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">48</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="barrios_badata"><sdtstype Sync="TRUE">G-polygon</sdtstype><ptvctcnt Sync="TRUE">48</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd value="001" Sync="TRUE"/></topLvl><geometObjs Name="barrios_badata"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">48</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><eainfo><detailed Name="barrios_badata" xmlns=""><attr xmlns=""><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr xmlns=""><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><enttyp><enttypl Sync="TRUE">barrios_badata</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">48</enttypc></enttyp><attr xmlns=""><attrlabl Sync="TRUE">BARRIO</attrlabl><attalias Sync="TRUE">BARRIO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr xmlns=""><attrlabl Sync="TRUE">COMUNA</attrlabl><attalias Sync="TRUE">COMUNA</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr xmlns=""><attrlabl Sync="TRUE">PERIMETRO</attrlabl><attalias Sync="TRUE">PERIMETRO</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr xmlns=""><attrlabl Sync="TRUE">AREA</attrlabl><attalias Sync="TRUE">AREA</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr xmlns=""><attrlabl Sync="TRUE">OBJETO</attrlabl><attalias Sync="TRUE">OBJETO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr></detailed></eainfo><spref><horizsys><cordsysn><geogcsn Sync="TRUE">GCS_Campo_Inchauspe</geogcsn><projcsn Sync="TRUE">Argentina_GKBsAs</projcsn></cordsysn><planar><planci><plance Sync="TRUE">coordinate pair</plance><plandu Sync="TRUE">meters</plandu><coordrep><absres Sync="TRUE">0.000000</absres><ordres Sync="TRUE">0.000000</ordres></coordrep></planci><mapproj><mapprojn Sync="TRUE">Transverse Mercator</mapprojn><transmer><sfctrmer Sync="TRUE">0.999998</sfctrmer><longcm Sync="TRUE">-58.462700</longcm><latprjo Sync="TRUE">-34.629717</latprjo><feast Sync="TRUE">100000.000000</feast><fnorth Sync="TRUE">100000.000000</fnorth></transmer></mapproj></planar><geodetic><horizdn Sync="TRUE">D_Campo_Inchauspe</horizdn><ellips Sync="TRUE">International_1924</ellips><semiaxis Sync="TRUE">6378388.000000</semiaxis><denflat Sync="TRUE">297.000000</denflat></geodetic></horizsys><vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000100</altres></altsys></vertdef></spref><refSysInfo><RefSystem dimension=""><refSysID xmlns=""><identCode Sync="TRUE" code="0">Argentina_GKBsAs</identCode></refSysID></RefSystem></refSysInfo><dqInfo><dataLineage><statement>Originalmente el archivo fue digitalizado sobre los ejes de calle producto de la restitución del vuelo aerofotogramétrico de 1997 y, actualizaciones en base a los límites establecidos por Ordenanza N° 23.698 del 11 de junio de 1968, completada por la Ordenanza Nº 26607 de 1972.
+Dicha Ley y sus modificatorias fueron derogadas y se redefinieron los nuevos límites porLey Nº1777.
+Modificado a Abril de 2008, en base a la Ley Nº 2.650/08 que establece los nuevos límites de Barrios.
+
+En Diciembre del 2011 se ajustaron los límites de cada barrio a la última versión del shape de calles (topología).
+
+En Febrero de 2019 se ajustaron los límites de los barrios lindantes con el Río de la Plata y Riachuelo en base al vuelo fotogramétrico realizado en 2017.
+
+
+DESCRIPCION DE CAMPOS
+
+BARRIO
+TIPO: Texto (50)
+DESCRIPCIÓN: Nombre del Barrio
+
+COMUNA
+TIPO: Numérico (19)
+DESCRIPCIÓN: Nombre de la Comuna a la que pertenece
+
+PERIMETRO
+TIPO: numérico  (19)
+DESCRIPCIÓN: Perímetro en metros
+
+AREA
+TIPO: numérico (19)
+DESCRIPCIÓN: Área en metros cuadrados
+
+OBJETO
+TIPO: texto (254)
+DESCRIPCIÓN: Tipo de elemento mapeado</statement></dataLineage><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope></dqInfo><dataqual><lineage><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\Rubi\Informacion\CARTOGRAFIA\Barrios\barrios(15)</srcused><procdate Sync="TRUE">20111213</procdate><proctime Sync="TRUE">10205600</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\Ceci\Comenzoeltrabajo\Ajustes-Dic2011\2doControl\Finales\barrios(15)</srcused><procdate Sync="TRUE">20120125</procdate><proctime Sync="TRUE">11440500</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\Rubi\Temporal\DBatti\Ceci Fiori\barrios(15)</srcused><procdate Sync="TRUE">20120202</procdate><proctime Sync="TRUE">12123300</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">I:\CARTOGRAFIA\Barrios\barrios</srcused><procdate Sync="TRUE">20140820</procdate><proctime Sync="TRUE">11205500</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><procdate Sync="TRUE">20190401</procdate><proctime Sync="TRUE">09541900</proctime></procstep></lineage></dataqual></metadata>
