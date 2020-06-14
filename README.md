@@ -1,0 +1,2 @@
+# MDG-Manejo-de-datos-geograficos
+Este repositorio recopila un conjunto de herramientas destinadas al procesamiento y uso de datos cuya característica diferencial es la presencia de atributos geográficos. A lo largo de los cuadernos que conforman los distintos módulos, se intentará brindar un conjunto de recursos básicos e intermedios con la finalidad de que estos conformen un primer kit para todo aquel interesado en sumergirse en el mundo de la ciencia de datos aplicada al análisis espacial. 
