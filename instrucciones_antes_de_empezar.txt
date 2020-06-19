@@ -1,0 +1,66 @@
+## Antes de empezar:
+Querés hacer esta clase con Conda o instalando un entorno virtual desde pip?
+Acá tenés los pasos fundamenteales para tomar una u otra decisión. Al respecto, debés saber que si bien conda es la opción más popular para crear entornos aislados en los que las librerías no entren en conflicto manteniendo o respetando versiones, muchos usuarios también optan por la creación de un entorno via pip para tener un trackeo más efectivo y claro de los paquetes que instalan.
+
+Dentro del terminal de tu sistema operativo podemos seguir cualquiera de los caminos que más te guste.
+
+1. Te recomendamos que dentro de tu directorio principal...
+
+$ pwd 
+  /users/alumno 
+
+2. Crees una carpeta de cursos que nos sirva para alojar el nuestro, pongámosle...
+
+$ mkdir cursos_python
+
+3. Y desde ahí, clonemos el repositorio de nuestro curso
+
+git clone https://github.com/CoDeArgentina/curso-python-data.git
+* los usuarios de windows deben instalar git bash para windows (desde acá, https://gitforwindows.org/) previamente. Acá un instructivo de cómo hacerlo: https://www.techoism.com/how-to-install-git-bash-on-windows/
+
+4. Ahora nos vamos a mover dentro de la carpeta de nuestro curso (o proyecto).
+$ cd curso-python-data
+
+Y desde allí podemos a) empezar a usar CONDA (la creación de un ambiente en conda puede tranquilamente preceder la creación de nuestro proyecto. Se puede, primero crear el ambiente y luego desde allí realizar los pasos anteriores) ó b) Crear un entorno virtual. 
+
+Si optaste por la primera. Un entorno virtual en conda se crea de la siguiente manera:
+
+CONDA
+-----
+
+01) conda create -n myenv python=3.6
+02) conda activate myenv
+03) conda install nb_conda
+04) conda install jupyter
+05) pip install -r requirements.txt # instalamos las dependencias que vamos a usar
+06) jupyter notebook
+07) en el local host dirigirse a la carpeta del proyecto curso-python-data y abrir clase o notebook nuevo elegiendo el kernel con el nombre que le dimos a nuestro entorno y cliqueando en 'new'.
+
+Si optaste por un entorno virtual, podés seguir por acá:
+
+VIRTUAL ENVIRONMENT
+-------------------
+
+WARNING: Para simplificar, el siguiente grupo de instrucciones están escritas en bash (el interprete de comandos por defecto en GNU/LINUX). Si sos usuario de otro sistema operativo como windows, te recomendamos que simplemente busques los comandos equivalentes (googleando salen fácil!).
+
+...instalamos virtualenv
+01) sudo apt-get install python-virtualenv ó
+    (python -m pip install --user virtualenv)
+...cd hasta el directorio donde vas a instalar el repositorio deseado.
+02) virtualenv myvenv --python=python3.6 #generalmente, se lo denomina venv
+03) source myenv/bin/activate 
+...ahora, instalamos jupyter en el entorno virtual
+04) pip install jupyter 
+05) pip install ipykernel
+...agregamos el entorno virtual como kernel en jupyter
+07) ipython kernel install --name=kernel_name --user
+...podes ver los kernels que tenes instalados en jupyter
+09) jupyter kernelspec list
+10) pip install -r requirements.txt 	
+11) jupyter notebook
+12) elegimos el kernel con el nombre que le dimos en el paso 07.
+
+
+
+
+
