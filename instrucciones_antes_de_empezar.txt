@@ -44,7 +44,7 @@ VIRTUAL ENVIRONMENT
 WARNING: Para simplificar, el siguiente grupo de instrucciones están escritas en bash (el interprete de comandos por defecto en GNU/LINUX). Si sos usuario de otro sistema operativo como windows, te recomendamos que simplemente busques los comandos equivalentes (googleando salen fácil!).
 
 ...instalamos virtualenv
-01) sudo apt-get install python-virtualenv ó
+01) sudo apt-get install python3-virtualenv ó
     (python -m pip install --user virtualenv)
 ...cd hasta el directorio donde vas a instalar el repositorio deseado.
 02) virtualenv myvenv --python=python3.6 #generalmente, se lo denomina venv
