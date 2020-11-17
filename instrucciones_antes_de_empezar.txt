@@ -50,15 +50,16 @@ WARNING: Para simplificar, el siguiente grupo de instrucciones están escritas e
 02) virtualenv myvenv --python=python3.6 #generalmente, se lo denomina venv
 03) source myenv/bin/activate 
 ...ahora, instalamos jupyter en el entorno virtual
-04) pip install jupyter 
-05) pip install ipykernel
+04) pip install --upgrade setuptools pip # actualizamos setuptools
+05) pip install jupyter 
+06) pip install ipykernel
 ...agregamos el entorno virtual como kernel en jupyter
 07) ipython kernel install --name=kernel_name --user
 ...podes ver los kernels que tenes instalados en jupyter
-09) jupyter kernelspec list
-10) pip install -r requirements.txt 	
-11) jupyter notebook
-12) elegimos el kernel con el nombre que le dimos en el paso 07.
+08) jupyter kernelspec list
+09) pip install -r requirements.txt 	
+10) jupyter notebook
+11) elegimos el kernel con el nombre que le dimos en el paso 07.
 
 
 
