@@ -1,4 +1,7 @@
-# MDG: Manejo de datos geograficos
+# **Herramientas de análisis urbano** ![image](https://user-images.githubusercontent.com/44501803/127249693-217ac1bb-7cda-4978-8d78-45afd7fa6d5e.png) 
+![image](https://user-images.githubusercontent.com/44501803/127241183-273cea8f-df8d-44d3-a8d9-36c321b34cc7.png)
+
+
 Este repositorio recopila un conjunto de herramientas destinadas al procesamiento y uso de datos cuya característica diferencial es la presencia de atributos geográficos. A lo largo de los cuadernos que conforman los distintos módulos, se intentará brindar un conjunto de recursos básicos e intermedios con la finalidad de que estos conformen un primer kit para todo aquel interesado en sumergirse en el mundo de la ciencia de datos aplicada al análisis espacial. 
 
 Este curso se encuentra escrito enteramente en python y se organiza en X módulos. Todos ellos abordan alguna temática geográfica o espacial, como contexto de uso donde se verán ejemplos y se resolverán problemas prácticos y frecuentes en el mundo de la ciencia de datos geográficos. Se focalizará en casos de análisis urbano, brindando un perspectiva global de distintas librerías aplicables al estudio de sus distintas dimensiones. Desde transporte hasta vivienda, pasando por la exploración de fuentes censales o consumo de apis, se buscará consolidar una primera caja de herramientas útil y aplicable a la resolución de problemas concretas.
