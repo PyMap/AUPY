@@ -7,18 +7,18 @@
 
 `AU</>Py` es un repositorio que recopila un conjunto de técnicas de **análisis urbano con python**. A través de las mismas, se busca facilitar el trabajo con  distintas dinámicas del espacio urbano y brindar una serie de recursos que conformen un primer kit de herramientas para todo aquel interesado en sumergirse en el mundo de la **ciencia de datos urbanos**. 
 
-## Modulo 1: Introducción al manejo de datos geográficos
-Este primer módulo consta de tres clases. La primera, introducirá al practicante algunos elementos genéricos relativos al manejo de datos en python para luego sumergirse en conceptos específicos del análisis geográfico. Para ello, se utilizará la librería `Geopandas`y se estudiarán las propiedades y métodos de los objetos de tipo `geometría`. También se trabajará con distintas proyecciones, enfocándose en los cambios ocurridos en los objetos de tipo `CRS` en la última release `0.7.0`. Durante las clases dos se revisarán algunas APIs de enriquecimiento de entidades geográficas, se hará un breve repaso de algunas de las librerías de visualización más utilizadas. Por último, en la clase tres se estudiarán algunas de las clases del módulo `mapclassify` de `Pysal` para la construcción de coropletas. También se explorarán algunas fuentes de datos secundarias, a partir de las cuales construiremos nuestras propias `clases` aplicables al estudio del territorio urbano.
+#### Modulo 1: Introducción al manejo de datos geográficos
+`Geopandas`
+* GeoDataFrames y GeoSeries
+* Tipos de geometrías, atributos y métodos disponibles con `shapely`. 
+* Sistemas de coordenadas (CRS) y reproyecciones.
+* Operaciones espaciales (spatial join, overlay y dissolve).
 
-* Clase 1: Introducción al manejo de datos geográficos
+#### Modulo 2: Normalización, enriquecimiento y geolocalización
 * Clase 2: APIs de enriquecimiento y estrategias de visualización
-* Clase 3: Exploracin de fuentes secundarias
 
-## Modulo 2: Grafos y redes de transporte
-En este segundo módulo, se revisarán conceptos propios de la teoría de grafos. Esto a partir de un enfoque netamente orientado a su aplicabilidad en casos de estudios de redes de transporte. A través del uso de liberías como `NetworkX`, `Pandana` y `OSMNX` construiremos grafos a partir de las coordenadas origen-destino y analizaremos distintas métricos de uso y accesibilidad.
+#### Modulo 3: Fuentes de datos secundarios
 
-* Clase 1: Titulo
-* Clase 2: Título
-* Clase 3: Titulo
-* Clase 4: Titulo
+#### Modulo 4: Grafos y redes de transporte
 
+#### Modulo 5: Clustering
