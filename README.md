@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/44501803/127709395-3b5a8649-cae6-4e78-b3d6-0097826bb302.png)![image](https://user-images.githubusercontent.com/44501803/127709433-c75615c3-fc0f-4641-b563-f6fc32bfa422.png)
 
-![image](https://user-images.githubusercontent.com/44501803/127249693-217ac1bb-7cda-4978-8d78-45afd7fa6d5e.png)![image](https://user-images.githubusercontent.com/44501803/127577117-1e505edc-27b1-49ad-b5f0-7cf2405b663e.png)![image](https://user-images.githubusercontent.com/44501803/127578652-4916a2a8-410d-41fc-b279-91384276af19.png)![image](https://user-images.githubusercontent.com/44501803/127578776-83a1e4e4-ecbb-4c1b-816a-a93293a8a63b.png)
+![image](https://user-images.githubusercontent.com/44501803/127249693-217ac1bb-7cda-4978-8d78-45afd7fa6d5e.png)![image](https://user-images.githubusercontent.com/44501803/127577117-1e505edc-27b1-49ad-b5f0-7cf2405b663e.png)![image](https://user-images.githubusercontent.com/44501803/127578652-4916a2a8-410d-41fc-b279-91384276af19.png)
 
 ### :globe_with_meridians: 𝚙𝚢𝚝𝚑𝚘𝚗 𝚊𝚙𝚕𝚒𝚌𝚊𝚍𝚘 𝚊𝚕 𝚊𝚗𝚊𝚕𝚒𝚜𝚒𝚜 𝚍𝚎𝚕 𝚎𝚜𝚙𝚊𝚌𝚒𝚘 𝚞𝚛𝚋𝚊𝚗𝚘 :globe_with_meridians:
 --------------------------------------------------------------------------------------------
