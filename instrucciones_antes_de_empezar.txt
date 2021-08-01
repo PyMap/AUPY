@@ -28,7 +28,7 @@ Si optaste por la primera. Un entorno virtual en conda se crea de la siguiente m
 CONDA
 -----
 
-01) conda create -n myenv python=3.6
+01) conda create -n myenv python=3.7
 02) conda activate myenv
 03) conda install nb_conda
 04) conda install jupyter
@@ -47,19 +47,23 @@ WARNING: Para simplificar, el siguiente grupo de instrucciones están escritas e
 01) sudo apt-get install python3-virtualenv ó
     (python -m pip install --user virtualenv)
 ...cd hasta el directorio donde vas a instalar el repositorio deseado.
-02) virtualenv myvenv --python=python3.6 #generalmente, se lo denomina venv
+02) virtualenv myvenv --python=python3.7 #generalmente, se lo denomina venv
 03) source myenv/bin/activate 
 ...ahora, instalamos jupyter en el entorno virtual
-04) pip install --upgrade setuptools pip # actualizamos setuptools
-05) pip install jupyter 
-06) pip install ipykernel
+# si tu sistema no reconoce la instruccion pip
+04) curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+    python3 get-pip.py --force-reinstall
+# si tenes algun problema con "tornado", actualiza setuptools
+05) pip install --upgrade setuptools pip 
+06) pip install jupyter 
+07) pip install ipykernel
 ...agregamos el entorno virtual como kernel en jupyter
-07) ipython kernel install --name=kernel_name --user
+08) ipython kernel install --name=kernel_name --user
 ...podes ver los kernels que tenes instalados en jupyter
-08) jupyter kernelspec list
-09) pip install -r requirements.txt 	
-10) jupyter notebook
-11) elegimos el kernel con el nombre que le dimos en el paso 07.
+09) jupyter kernelspec list
+10) pip install -r requirements.txt 	
+11) jupyter notebook
+12) elegimos el kernel con el nombre que le dimos en el paso 07.
 
 
 
