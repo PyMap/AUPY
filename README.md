@@ -8,14 +8,20 @@
 `AU</>Py` es un repositorio que recopila un conjunto de técnicas de **análisis urbano con python**. A través de las mismas, se busca facilitar el trabajo con  distintas dinámicas del espacio urbano y brindar una serie de recursos que conformen un primer kit de herramientas para todo aquel interesado en sumergirse en el mundo de la **ciencia de datos urbanos**. 
 
 #### Modulo 1: Introducción al manejo de datos geográficos
-`Geopandas`
-* GeoDataFrames y GeoSeries
-* Tipos de geometrías, atributos y métodos disponibles con `shapely`. 
-* Sistemas de coordenadas (CRS) y reproyecciones.
-* Operaciones espaciales (spatial join, overlay y dissolve).
 
-#### Modulo 2: Normalización, enriquecimiento y geolocalización
-* Clase 2: APIs de enriquecimiento y estrategias de visualización
+* `Geopandas`: GeoDataFrames y GeoSeries
+* Tipos de geometrías, atributos y métodos disponibles con `shapely` 
+* Sistemas de coordenadas (CRS) y reproyecciones
+* Operaciones espaciales (spatial join, overlay y dissolve)
+
+#### Modulo 2: Enriquecimiento, geolocalización y visualización
+
+* `APIs` y `requests`
+* Normalización de direcciones
+* Geolocalización
+* Enriquecimiento de entidades geográficas
+* Visualización (`Contextily`, `Leaflet`, `Folium`)
+* `Folium`: Markers, Cluster markers, Mapas de calor, Choropletas, etc.
 
 #### Modulo 3: Fuentes de datos secundarios
 
