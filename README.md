@@ -9,6 +9,7 @@
 
 #### Modulo 1: Introducción al manejo de datos geográficos
 
+* Funciones regulares y anónimas: `map`, `apply`, `applymap` y `lambda x`
 * `Geopandas`: GeoDataFrames y GeoSeries
 * Tipos de geometrías, atributos y métodos disponibles con `shapely` 
 * Sistemas de coordenadas (CRS) y reproyecciones
@@ -24,6 +25,13 @@
 * `Folium`: Markers, Cluster markers, Mapas de calor, Choropletas, etc.
 
 #### Modulo 3: Fuentes de datos secundarios
+
+* Unidades geoestadísticas (CNPHV-Indec)
+* Construccuón de Coropletas: `pysal/mapclassify`
+* Esquemas de clasificación: `NaturalBreaks` vs `FisherJenks`
+* Construcción de clases y objetos con fuentes censales
+* Conjuntos de datos en [GoogleBigQuey](https://drive.google.com/file/d/1IyXAvy_ndGl-LsXvP2wNSalg02EMoCfH/view?usp=sharing) 
+* Ajustes por inflación para series de precios de alquiler
 
 #### Modulo 4: Grafos y redes de transporte
 
