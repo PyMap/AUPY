@@ -40,4 +40,4 @@
 * Descarga de geometrías, formas de construcción de un grafo, simplificación de una red, estadísticas básicas y extendidas, betweenness centrality y shortest path routing: `OSMNx`
 
 #### Modulo 5: Clustering
-
+* Detección de centralidades: `OSMNx` + `DBSCAN`
