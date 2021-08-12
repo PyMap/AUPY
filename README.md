@@ -35,4 +35,9 @@
 
 #### Modulo 4: Grafos y redes de transporte
 
+* Visualización de redes dinámicas: `Plotly`
+* Manipulación de nodos y arcos, tipos de grafos y direccionalidad, métricas de conectividad y centralidad de una red: `NetworkX`
+* Descarga de geometrías, formas de construcción de un grafo, simplificación de una red, estadísticas básicas y extendidas, betweenness centrality and shortest path routing: `OSMNx`
+
 #### Modulo 5: Clustering
+
